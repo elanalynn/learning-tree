@@ -4,6 +4,10 @@ const height = +svg.attr('height')
 
 const fader = color => d3.interpolateRgb(color, 'white')(0)
 const color = d3.scaleOrdinal(d3.schemeCategory20.map(fader))
+
+// const fontColorContrast = require('font-color-contrast')
+
+
 const format = d3.format(',d')
 
 const treemap = d3.treemap()
