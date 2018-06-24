@@ -1,5 +1,6 @@
-var StaticServer = require('static-server')
-var server = new StaticServer({
+const StaticServer = require('static-server')
+// import StaticServer from 'static-server'
+const server = new StaticServer({
   rootPath: '.',
   port: 4000,
 })

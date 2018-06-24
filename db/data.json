@@ -14,7 +14,8 @@
               "children": [
                 {
                   "name": "React Docs",
-                  "description": "",
+                  "description": "High level reading",
+                  "reflection": "",
                   "url": "https://reactjs.org/docs/hello-world.html",
                   "type": "reading",
                   "hoursTotal": 10,
@@ -22,7 +23,8 @@
                 },
                 {
                   "name": "Pluralsight React and Flux",
-                  "description": "",
+                  "description": "Introductory course on React and Flux pattern",
+                  "reflection": "",
                   "url": "https://app.pluralsight.com/library/courses/react-flux-angular/table-of-contents",
                   "type": "video",
                   "hoursTotal": 5,
@@ -31,6 +33,7 @@
                 {
                   "name": "Pluralsight React and Redux",
                   "description": "",
+                  "reflection": "",
                   "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
                   "type": "video",
                   "hoursTotal": 6,
@@ -39,6 +42,7 @@
                 {
                   "name": "Advanced Redux",
                   "description": "",
+                  "reflection": "",
                   "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
                   "type": "video",
                   "hoursTotal": 6,
@@ -47,6 +51,7 @@
                 {
                   "name": "Getting Started with Redux (Egghead)",
                   "description": "",
+                  "reflection": "",
                   "url": "https://egghead.io/courses/getting-started-with-redux",
                   "type": "video",
                   "hoursTotal": 2,
@@ -55,6 +60,7 @@
                 {
                   "name": "Explain Redux",
                   "description": "",
+                  "reflection": "",
                   "url": "#",
                   "type": "teaching",
                   "hoursTotal": 1,
@@ -63,34 +69,38 @@
                 {
                   "name": "Lunch with Friends",
                   "description": "",
+                  "reflection": "",
                   "url": "#",
                   "type": "coding",
                   "hoursTotal": 40,
                   "hoursComplete": 2
                 },
                 {
-                  "name": "TIL",
-                  "description": "",
+                  "name": "TIL App",
+                  "description": "A simple React and Redux app",
+                  "reflection": "",
                   "url": "#",
                   "type": "coding",
-                  "hoursTotal": 40,
+                  "hoursTotal": 30,
                   "hoursComplete": 2
                 },
                 {
                   "name": "SSR with React",
                   "children": [
                     {
-                      "name": "Isomorphic Book",
-                      "description": "",
-                      "url": "#",
+                      "name": "https://www.manning.com/books/isomorphic-web-applications",
+                      "description": "Isomorphic Web Applications teaches you to build production-quality web apps using isomorphic architecture.",
+                      "reflection": "",
+                      "url": "https://www.manning.com/books/isomorphic-web-applications",
                       "type": "reading",
                       "hoursTotal": 20,
-                      "hoursComplete": 2
+                      "hoursComplete": 0
                     },
                     {
-                      "name": "SSR with React",
-                      "description": "",
-                      "url": "#",
+                      "name": "SSR with React and Reux",
+                      "description": "Udemy course",
+                      "reflection": "",
+                      "url": "https://www.udemy.com/server-side-rendering-with-react-and-redux/learn/v4/t/lecture/8202240?start=0",
                       "type": "video",
                       "hoursTotal": 10,
                       "hoursComplete": 2
@@ -104,8 +114,9 @@
                       "name": "Jest and Enzyme",
                       "children": [
                         {
-                          "name": "SSR with React",
+                          "name": "Jest Tutorial",
                           "description": "",
+                          "reflection": "",
                           "url": "#",
                           "type": "video",
                           "hoursTotal": 10,
@@ -117,8 +128,9 @@
                       "name": "Cypress",
                       "children": [
                         {
-                          "name": "SSR with React",
+                          "name": "Cypress Tutorial",
                           "description": "",
+                          "reflection": "",
                           "url": "#",
                           "type": "video",
                           "hoursTotal": 10,
@@ -132,8 +144,9 @@
                   "name": "React Router",
                   "children": [
                     {
-                      "name": "React Router Resource",
+                      "name": "React Router Tutorial",
                       "description": "",
+                      "reflection": "",
                       "url": "#",
                       "type": "video",
                       "hoursTotal": 40,
@@ -147,6 +160,7 @@
                     {
                       "name": "Context Docs",
                       "description": "",
+                      "reflection": "",
                       "url": "#",
                       "type": "video",
                       "hoursTotal": 4,
@@ -160,6 +174,7 @@
                     {
                       "name": "React Native Curriculum",
                       "description": "",
+                      "reflection": "",
                       "url": "github.com/tylermcginnis/React-Native-Curriculum",
                       "type": "video",
                       "hoursTotal": 4,
@@ -174,6 +189,7 @@
         {
           "name": "Iterators",
           "description": "",
+          "reflection": "",
           "url": "#",
           "type": "reading",
           "hoursTotal": 10,
@@ -182,6 +198,7 @@
         {
           "name": "Decorators",
           "description": "",
+          "reflection": "",
           "url": "#",
           "type": "reading",
           "hoursTotal": 10,
@@ -202,6 +219,7 @@
                 {
                   "name": "RAILS Guides",
                   "description": "",
+                  "reflection": "",
                   "url": "http://guides.rubyonrails.org/",
                   "type": "reading",
                   "hoursTotal": 20,
@@ -210,6 +228,7 @@
                 {
                   "name": "RAILS Tutorial",
                   "description": "",
+                  "reflection": "",
                   "url": "https://www.railstutorial.org/book",
                   "type": "video",
                   "hoursTotal": 20,
@@ -218,6 +237,7 @@
                 {
                   "name": "Pluralsight React and Redux",
                   "description": "",
+                  "reflection": "",
                   "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
                   "type": "video",
                   "hoursTotal": 6,
@@ -225,10 +245,11 @@
                 },
                 {
                   "name": "Book Club App",
-                  "description": "",
+                  "description": "An app built with RAILS to help manage book club suugestions, scheduling, and discussion.",
+                  "reflection": "",
                   "url": "https://github.com/elanalynn/book-club",
                   "type": "coding",
-                  "hoursTotal": 40,
+                  "hoursTotal": 30,
                   "hoursComplete": 2
                 }
               ]
@@ -250,6 +271,7 @@
                 {
                   "name": "RAILS Guides",
                   "description": "",
+                  "reflection": "",
                   "url": "http://guides.rubyonrails.org/",
                   "type": "reading",
                   "hoursTotal": 20,
@@ -262,7 +284,8 @@
         {
           "name": "Little Elixir and OTP Book",
           "description": "",
-          "url": "http://guides.rubyonrails.org/",
+          "reflection": "",
+          "url": "https://www.manning.com/books/the-little-elixir-and-otp-guidebook",
           "type": "reading",
           "hoursTotal": 20,
           "hoursComplete": 1
@@ -278,6 +301,7 @@
             {
               "name": "Grokking FP",
               "description": "",
+              "reflection": "",
               "url": "#",
               "type": "reading",
               "hoursTotal": 20,
@@ -291,6 +315,15 @@
           "children": [
             {
               "name": "Auth0 Docs",
+              "description": "",
+              "reflection": "",
+              "url": "#",
+              "type": "reading",
+              "hoursTotal": 8,
+              "hoursComplete": 8
+            },
+            {
+              "name": "Devise",
               "description": "",
               "url": "#",
               "type": "reading",
@@ -306,6 +339,7 @@
             {
               "name": "GraphQL Docs",
               "description": "",
+              "reflection": "",
               "url": "#",
               "type": "reading",
               "hoursTotal": 8,
@@ -314,6 +348,7 @@
             {
               "name": "Project",
               "description": "",
+              "reflection": "",
               "crossRef": "some project"
             }
           ]
@@ -327,6 +362,7 @@
         {
           "name": "Design for Hackers",
           "description": "",
+          "reflection": "",
           "url": "#",
           "type": "reading",
           "hoursTotal": 8,
@@ -335,6 +371,7 @@
         {
           "name": "NNG Certification",
           "description": "",
+          "reflection": "",
           "url": "#",
           "type": "certification",
           "hoursTotal": 8,

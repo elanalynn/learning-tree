@@ -26,7 +26,18 @@ d3.json('db/data.json', (err, data) => {
                   .data(root.leaves())
                   .enter().append('g')
                   .attr('transform', d => 'translate(' + d.x0 + ',' + d.y0 + ')')
+                  
+  var tip = d3.tip().attr('class', 'd3-tip').html(d => {
+    const percentComplete = Math.round((d.data.hoursComplete/d.data.hoursTotal) * 100)
+    return (`
+      <h3>${d.data.name}</h3>
+      <p>${d.data.description}</p>
+      <p>${d.data.reflection}</p>
+      <p>% ${percentComplete} complete</p>
+    `)})
 
+    console.log(cell.call(tip))
+  
   cell.append('a')
       .attr('href', d => d.data.url)
       .attr('target', '_blank')
@@ -42,6 +53,9 @@ d3.json('db/data.json', (err, data) => {
           color(d.parent.data.id)
         )
       })
+      .call(tip)
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
 
   cell.append('clipPath')
       .attr('id', d => 'clip-' + d.data.id)
