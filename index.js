@@ -2,7 +2,7 @@ const svg = d3.select('svg')
 const width = +svg.attr('width')
 const height = +svg.attr('height')
 
-const fader = color => d3.interpolateRgb(color, 'white')(0)
+const fader = color => d3.interpolateRgb(color, 'gold')(.2)
 const color = d3.scaleOrdinal(d3.schemeCategory20.map(fader))
 
 // const fontColorContrast = require('font-color-contrast')
@@ -35,12 +35,12 @@ d3.json('db/data.json', (err, data) => {
     const percentComplete = Math.round((d.data.hoursComplete/d.data.hoursTotal) * 100)
     return (`
       <h3>${d.data.name}</h3>
-      <p>${d.data.description}</p>
-      <p>${d.data.reflection}</p>
+      <p>${d.data.description || 'no description yet'}</p>
+      <p>${d.data.reflection || 'no reflection yet'}</p>
+      <p><i>Type: ${d.data.type}</i></p>
+      <p>Tags: ${d.data.tags}</p>
       <p>% ${percentComplete} complete</p>
     `)})
-
-    console.log(cell.call(tip))
   
   cell.append('a')
       .attr('href', d => d.data.url)
@@ -49,14 +49,7 @@ d3.json('db/data.json', (err, data) => {
       .attr('id', d => d.data.id)
       .attr('width', d =>  d.x1 - d.x0)
       .attr('height', d => d.y1 - d.y0)
-      .attr('fill', d => {
-        return (
-          d.parent.data.color ||
-          d.parent.parent.data.color ||
-          d.parent.parent.parent.data.color ||
-          color(d.parent.data.id)
-        )
-      })
+      .attr('fill', d => d.parent.data.color || color(d.parent.data.id))
       .call(tip)
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide)

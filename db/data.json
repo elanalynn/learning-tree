@@ -6,255 +6,302 @@
       "color": "yellow",
       "children": [
         {
-          "name": "Libraries",
-          "children": [
-            {
-              "name": "React",
-              "color": "#28DEFE",
-              "children": [
-                {
-                  "name": "React Docs",
-                  "description": "High level reading",
-                  "reflection": "",
-                  "url": "https://reactjs.org/docs/hello-world.html",
-                  "type": "reading",
-                  "hoursTotal": 10,
-                  "hoursComplete": 1
-                },
-                {
-                  "name": "Pluralsight React and Flux",
-                  "description": "Introductory course on React and Flux pattern",
-                  "reflection": "",
-                  "url": "https://app.pluralsight.com/library/courses/react-flux-angular/table-of-contents",
-                  "type": "video",
-                  "hoursTotal": 5,
-                  "hoursComplete": 5
-                },
-                {
-                  "name": "Pluralsight React and Redux",
-                  "description": "",
-                  "reflection": "",
-                  "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
-                  "type": "video",
-                  "hoursTotal": 6,
-                  "hoursComplete": 6
-                },
-                {
-                  "name": "Advanced Redux",
-                  "description": "",
-                  "reflection": "",
-                  "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
-                  "type": "video",
-                  "hoursTotal": 6,
-                  "hoursComplete": 6
-                },
-                {
-                  "name": "Getting Started with Redux (Egghead)",
-                  "description": "",
-                  "reflection": "",
-                  "url": "https://egghead.io/courses/getting-started-with-redux",
-                  "type": "video",
-                  "hoursTotal": 2,
-                  "hoursComplete": 1
-                },
-                {
-                  "name": "Explain Redux",
-                  "description": "",
-                  "reflection": "",
-                  "url": "#",
-                  "type": "teaching",
-                  "hoursTotal": 1,
-                  "hoursComplete": 0
-                },
-                {
-                  "name": "Lunch with Friends",
-                  "description": "",
-                  "reflection": "",
-                  "url": "#",
-                  "type": "coding",
-                  "hoursTotal": 40,
-                  "hoursComplete": 2
-                },
-                {
-                  "name": "TIL App",
-                  "description": "A simple React and Redux app",
-                  "reflection": "",
-                  "url": "#",
-                  "type": "coding",
-                  "hoursTotal": 30,
-                  "hoursComplete": 2
-                },
-                {
-                  "name": "SSR with React",
-                  "children": [
-                    {
-                      "name": "https://www.manning.com/books/isomorphic-web-applications",
-                      "description": "Isomorphic Web Applications teaches you to build production-quality web apps using isomorphic architecture.",
-                      "reflection": "",
-                      "url": "https://www.manning.com/books/isomorphic-web-applications",
-                      "type": "reading",
-                      "hoursTotal": 20,
-                      "hoursComplete": 0
-                    },
-                    {
-                      "name": "SSR with React and Reux",
-                      "description": "Udemy course",
-                      "reflection": "",
-                      "url": "https://www.udemy.com/server-side-rendering-with-react-and-redux/learn/v4/t/lecture/8202240?start=0",
-                      "type": "video",
-                      "hoursTotal": 10,
-                      "hoursComplete": 2
-                    }
-                  ]
-                },
-                {
-                  "name": "Testing with React",
-                  "children": [
-                    {
-                      "name": "Jest and Enzyme",
-                      "children": [
-                        {
-                          "name": "Jest Tutorial",
-                          "description": "",
-                          "reflection": "",
-                          "url": "#",
-                          "type": "video",
-                          "hoursTotal": 10,
-                          "hoursComplete": 2
-                        }
-                      ]
-                    },
-                    {
-                      "name": "Cypress",
-                      "children": [
-                        {
-                          "name": "Cypress Tutorial",
-                          "description": "",
-                          "reflection": "",
-                          "url": "#",
-                          "type": "video",
-                          "hoursTotal": 10,
-                          "hoursComplete": 2
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "React Router",
-                  "children": [
-                    {
-                      "name": "React Router Tutorial",
-                      "description": "",
-                      "reflection": "",
-                      "url": "#",
-                      "type": "video",
-                      "hoursTotal": 40,
-                      "hoursComplete": 2
-                    }
-                  ]
-                },
-                {
-                  "name": "Context API",
-                  "children": [
-                    {
-                      "name": "Context Docs",
-                      "description": "",
-                      "reflection": "",
-                      "url": "#",
-                      "type": "video",
-                      "hoursTotal": 4,
-                      "hoursComplete": 0
-                    }
-                  ]
-                },
-                {
-                  "name": "React Native",
-                  "children": [
-                    {
-                      "name": "React Native Curriculum",
-                      "description": "",
-                      "reflection": "",
-                      "url": "github.com/tylermcginnis/React-Native-Curriculum",
-                      "type": "video",
-                      "hoursTotal": 4,
-                      "hoursComplete": 0
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Iterators",
-          "description": "",
+          "description": "practice with a real use case",
           "reflection": "",
           "url": "#",
           "type": "reading",
-          "hoursTotal": 10,
-          "hoursComplete": 1
+          "tags": [],
+          "keywords": [],
+          "hoursTotal": 2,
+          "hoursComplete": 1,
+          "priority": 2
         },
         {
           "name": "Decorators",
-          "description": "",
+          "description": "practice with a real use case",
           "reflection": "",
           "url": "#",
           "type": "reading",
-          "hoursTotal": 10,
+          "tags": [],
+          "keywords": [],
+          "hoursTotal": 2,
           "hoursComplete": 1
+        },
+        {
+          "name": "Generators",
+          "description": "practice with a real use case",
+          "reflection": "",
+          "url": "#",
+          "type": "reading",
+          "tags": [],
+          "keywords": [],
+          "hoursTotal": 2,
+          "hoursComplete": 1,
+          "priority": 2
         }
       ]
     },
     {
-      "name": "Ruby",
-      "color": "#D50000",
+      "name": "React",
+      "color": "#28DEFE",
       "children": [
         {
-          "name": "Libraries",
-          "children": [
-            {
-              "name": "RAILS",
-              "children": [
-                {
-                  "name": "RAILS Guides",
-                  "description": "",
-                  "reflection": "",
-                  "url": "http://guides.rubyonrails.org/",
-                  "type": "reading",
-                  "hoursTotal": 20,
-                  "hoursComplete": 1
-                },
-                {
-                  "name": "RAILS Tutorial",
-                  "description": "",
-                  "reflection": "",
-                  "url": "https://www.railstutorial.org/book",
-                  "type": "video",
-                  "hoursTotal": 20,
-                  "hoursComplete": 5
-                },
-                {
-                  "name": "Pluralsight React and Redux",
-                  "description": "",
-                  "reflection": "",
-                  "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
-                  "type": "video",
-                  "hoursTotal": 6,
-                  "hoursComplete": 6
-                },
-                {
-                  "name": "Book Club App",
-                  "description": "An app built with RAILS to help manage book club suugestions, scheduling, and discussion.",
-                  "reflection": "",
-                  "url": "https://github.com/elanalynn/book-club",
-                  "type": "coding",
-                  "hoursTotal": 30,
-                  "hoursComplete": 2
-                }
-              ]
-            }
-          ]
+          "name": "React Docs",
+          "description": "High level reading",
+          "reflection": "",
+          "url": "https://reactjs.org/docs/hello-world.html",
+          "type": "reading",
+          "tags": [
+            "frontend"
+          ],
+          "hoursTotal": 10,
+          "hoursComplete": 1,
+          "priority": 2
+        },
+        {
+          "name": "React in Patterns",
+          "description": "Covers input/output component communication, flux, redux, event handlers, composition, DI, styling, and more.",
+          "reflection": "",
+          "url": "https://krasimir.gitbooks.io/react-in-patterns/content/",
+          "type": "reading",
+          "tags": [
+            "frontend"
+          ],
+          "keywords": [
+            "higher order components",
+            "connected components",
+            "redux-actions"
+          ],
+          "hoursTotal": 10,
+          "hoursComplete": 0,
+          "priority": 2
+        },
+        {
+          "name": "Pluralsight React and Flux",
+          "description": "Introductory course on React and Flux pattern",
+          "reflection": "",
+          "url": "https://app.pluralsight.com/library/courses/react-flux-angular/table-of-contents",
+          "type": "video",
+          "tags": [
+            "frontend"
+          ],
+          "hoursTotal": 5,
+          "hoursComplete": 5,
+          "priority": 2
+        },
+        {
+          "name": "Pluralsight React and Redux",
+          "description": "",
+          "reflection": "",
+          "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
+          "type": "video",
+          "tags": [
+            "frontend",
+            "state management"
+          ],
+          "hoursTotal": 6,
+          "hoursComplete": 6,
+          "priority": 2
+        },
+        {
+          "name": "Advanced Redux",
+          "description": "Course covering Redux concepts, thunks, sagas, and redux dev tools",
+          "reflection": "",
+          "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
+          "type": "video",
+          "tags": [
+            "frontend",
+            "state management"
+          ],
+          "keywords": [
+            "thunk",
+            "saga",
+            "reducer",
+            "store",
+            "action"
+          ],
+          "hoursTotal": 6,
+          "hoursComplete": 6,
+          "priority": 2
+        },
+        {
+          "name": "Getting Started with Redux (Egghead)",
+          "description": "",
+          "reflection": "",
+          "url": "https://egghead.io/courses/getting-started-with-redux",
+          "type": "video",
+          "tags": [
+            "frontend",
+            "state management"
+          ],
+          "hoursTotal": 2,
+          "hoursComplete": 1,
+          "priority": 2
+        },
+        {
+          "name": "Explain Redux like you really understand it",
+          "description": "Write a blog post or create a video explaining how redux works",
+          "reflection": "",
+          "url": "#",
+          "type": "teaching",
+          "tags": [
+            "frontend",
+            "state management"
+          ],
+          "hoursTotal": 1,
+          "hoursComplete": 0,
+          "priority": 2
+        },
+        {
+          "name": "Lunch with Friends",
+          "description": "An application to help manage lunch plans among colleagues. Already started writing in Angular. Rewrite and in React as a n exercise to learn React.",
+          "reflection": "",
+          "url": "#",
+          "type": "project",
+          "tags": [],
+          "hoursTotal": 30,
+          "hoursComplete": 2,
+          "priority": 2
+        },
+        {
+          "name": "TIL App",
+          "description": "A simple React and Redux app",
+          "reflection": "",
+          "url": "#",
+          "type": "project",
+          "tags": [],
+          "hoursTotal": 30,
+          "hoursComplete": 2,
+          "priority": 2
+        },
+        {
+          "name": "Isomorphic Web Applications",
+          "description": "Isomorphic Web Applications teaches you to build production-quality web apps using isomorphic architecture.",
+          "reflection": "",
+          "url": "https://www.manning.com/books/isomorphic-web-applications",
+          "type": "reading",
+          "tags": [],
+          "hoursTotal": 20,
+          "hoursComplete": 0,
+          "priority": 2
+        },
+        {
+          "name": "SSR with React and Redux",
+          "description": "Udemy course",
+          "reflection": "",
+          "url": "https://www.udemy.com/server-side-rendering-with-react-and-redux/learn/v4/t/lecture/8202240?start=0",
+          "type": "video",
+          "tags": [],
+          "hoursTotal": 10,
+          "hoursComplete": 2,
+          "priority": 2
+        },
+        {
+          "name": "Jest Tutorial",
+          "description": "",
+          "reflection": "",
+          "url": "#",
+          "type": "video",
+          "tags": [],
+          "hoursTotal": 10,
+          "hoursComplete": 2,
+          "priority": 2
+        },
+        {
+          "name": "Cypress Tutorial",
+          "description": "",
+          "reflection": "",
+          "url": "#",
+          "type": "video",
+          "tags": [],
+          "hoursTotal": 10,
+          "hoursComplete": 2,
+          "priority": 2
+        },
+        {
+          "name": "React Router Tutorial",
+          "description": "",
+          "reflection": "",
+          "url": "#",
+          "type": "video",
+          "tags": [],
+          "hoursTotal": 4,
+          "hoursComplete": 2,
+          "priority": 2
+        },
+        {
+          "name": "Context API",
+          "description": "",
+          "reflection": "",
+          "url": "#",
+          "type": "video",
+          "tags": [],
+          "hoursTotal": 4,
+          "hoursComplete": 0,
+          "priority": 2
+        },
+        {
+          "name": "React Native Curriculum",
+          "description": "",
+          "reflection": "",
+          "url": "github.com/tylermcginnis/React-Native-Curriculum",
+          "type": "video",
+          "tags": [],
+          "hoursTotal": 4,
+          "hoursComplete": 0,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "name": "RAILS",
+      "children": [
+        {
+          "name": "RAILS Guides",
+          "description": "",
+          "reflection": "",
+          "url": "http://guides.rubyonrails.org/",
+          "type": "reading",
+          "tags": [],
+          "hoursTotal": 20,
+          "hoursComplete": 1,
+          "priority": 2
+        },
+        {
+          "name": "RAILS Tutorial",
+          "description": "",
+          "reflection": "",
+          "url": "https://www.railstutorial.org/book",
+          "type": "video",
+          "tags": [],
+          "hoursTotal": 20,
+          "hoursComplete": 5,
+          "priority": 2
+        },
+        {
+          "name": "Book Club App",
+          "description": "An app built with RAILS to help manage book club suugestions, scheduling, and discussion.",
+          "reflection": "",
+          "url": "https://github.com/elanalynn/book-club",
+          "type": "coding",
+          "tags": [],
+          "hoursTotal": 30,
+          "hoursComplete": 2,
+          "priority": 2
+        },
+        {
+          "name": "rspec docs",
+          "description": "testing",
+          "reflection": "",
+          "url": "#",
+          "type": "reading",
+          "tags": [
+            "testing"
+          ],
+          "hoursTotal": 4,
+          "hoursComplete": 1,
+          "priority": 2
         }
       ]
     },
@@ -263,23 +310,15 @@
       "color": "#461A53",
       "children": [
         {
-          "name": "Libraries",
-          "children": [
-            {
-              "name": "Phoenix",
-              "children": [
-                {
-                  "name": "RAILS Guides",
-                  "description": "",
-                  "reflection": "",
-                  "url": "http://guides.rubyonrails.org/",
-                  "type": "reading",
-                  "hoursTotal": 20,
-                  "hoursComplete": 1
-                }
-              ]
-            }
-          ]
+          "name": "Phoenix project",
+          "description": "",
+          "reflection": "",
+          "url": "#",
+          "type": "project",
+          "tags": [],
+          "hoursTotal": 20,
+          "hoursComplete": 1,
+          "priority": 2
         },
         {
           "name": "Little Elixir and OTP Book",
@@ -287,77 +326,88 @@
           "reflection": "",
           "url": "https://www.manning.com/books/the-little-elixir-and-otp-guidebook",
           "type": "reading",
+          "tags": [],
           "hoursTotal": 20,
-          "hoursComplete": 1
+          "hoursComplete": 1,
+          "priority": 2
         }
       ]
     },
     {
-      "name": "Concepts",
+      "name": "Functional Programming",
       "children": [
         {
-          "name": "Functional Programming",
-          "children": [
-            {
-              "name": "Grokking FP",
-              "description": "",
-              "reflection": "",
-              "url": "#",
-              "type": "reading",
-              "hoursTotal": 20,
-              "hoursComplete": 8
-            }
-          ]
+          "name": "Grokking Functional Programming",
+          "description": "Illustrated book covering pure functions, recursion, lists, and list comprehensions",
+          "reflection": "",
+          "url": "#",
+          "type": "reading",
+          "tags": [],
+          "hoursTotal": 20,
+          "hoursComplete": 8,
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "name": "Auth",
+      "children": [
+        {
+          "name": "Auth0 Docs",
+          "description": "",
+          "reflection": "",
+          "url": "#",
+          "type": "reading",
+          "tags": [],
+          "hoursTotal": 8,
+          "hoursComplete": 8,
+          "priority": 3
         },
         {
-          "name": "Auth",
-          "color": "#FC3400",
-          "children": [
-            {
-              "name": "Auth0 Docs",
-              "description": "",
-              "reflection": "",
-              "url": "#",
-              "type": "reading",
-              "hoursTotal": 8,
-              "hoursComplete": 8
-            },
-            {
-              "name": "Devise",
-              "description": "",
-              "url": "#",
-              "type": "reading",
-              "hoursTotal": 8,
-              "hoursComplete": 8
-            }
-          ]
+          "name": "Devise",
+          "description": "",
+          "url": "#",
+          "type": "reading",
+          "tags": [],
+          "hoursTotal": 8,
+          "hoursComplete": 8,
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "color": "#F40094",
+      "children": [
+        {
+          "name": "GraphQL Docs",
+          "description": "",
+          "reflection": "",
+          "url": "#",
+          "type": "reading",
+          "tags": [],
+          "hoursTotal": 8,
+          "hoursComplete": 8,
+          "priority": 3
         },
         {
-          "name": "GraphQL",
-          "color": "#F40094",
-          "children": [
-            {
-              "name": "GraphQL Docs",
-              "description": "",
-              "reflection": "",
-              "url": "#",
-              "type": "reading",
-              "hoursTotal": 8,
-              "hoursComplete": 8
-            },
-            {
-              "name": "Project",
-              "description": "",
-              "reflection": "",
-              "crossRef": "some project"
-            }
-          ]
+          "name": "Apollo",
+          "description": "A library to integrate with GraphQL",
+          "reflection": "",
+          "url": "https://www.apollographql.com/",
+          "type": "reading",
+          "tags": [
+            "data library",
+            "GraphQL"
+          ],
+          "hoursTotal": 4,
+          "hoursComplete": 0,
+          "priority": 3
         }
       ]
     },
     {
       "name": "UX & Design",
-      "color": "aqua",
       "children": [
         {
           "name": "Design for Hackers",
@@ -365,8 +415,10 @@
           "reflection": "",
           "url": "#",
           "type": "reading",
+          "tags": [],
           "hoursTotal": 8,
-          "hoursComplete": 8
+          "hoursComplete": 8,
+          "priority": 3
         },
         {
           "name": "NNG Certification",
@@ -374,8 +426,144 @@
           "reflection": "",
           "url": "#",
           "type": "certification",
+          "tags": [],
           "hoursTotal": 8,
-          "hoursComplete": 8
+          "hoursComplete": 8,
+          "priority": 3
+        },
+        {
+          "name": "HCI Encyclopedia",
+          "description": "FOundational text from the Interaction Design Foundation",
+          "reflection": "",
+          "url": "https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed",
+          "type": "reading",
+          "tags": [],
+          "hoursTotal": 8,
+          "hoursComplete": 8,
+          "priority": 3
+        },
+        {
+          "name": "Design Systems Handbook",
+          "description": "",
+          "reflection": "",
+          "url": "#",
+          "type": "reading",
+          "tags": [],
+          "hoursTotal": 8,
+          "hoursComplete": 8,
+          "priority": 3
+        },
+        {
+          "name": "Design System",
+          "description": "",
+          "reflection": "",
+          "url": "#",
+          "type": "project",
+          "tags": [],
+          "hoursTotal": 8,
+          "hoursComplete": 8,
+          "priority": 3
+        },
+        {
+          "name": "Accessibility",
+          "description": "a11y",
+          "reflection": "",
+          "url": "#",
+          "type": "project",
+          "tags": [],
+          "keywords": [],
+          "hoursTotal": 8,
+          "hoursComplete": 8,
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "name": "Git",
+      "children": [
+        {
+          "name": "SCM Book/Site",
+          "description": "Because it's probably the best way to understand Git completely.",
+          "reflection": "",
+          "url": "https://git-scm.com/",
+          "type": "reading",
+          "tags": [
+            "version control",
+            "Git"
+          ],
+          "hoursTotal": 8,
+          "hoursComplete": 8,
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "name": "Linux",
+      "children": [
+        {
+          "name": "Linux Book",
+          "description": "Dunno yet",
+          "reflection": "",
+          "url": "#",
+          "type": "reading",
+          "tags": [],
+          "keywords": [],
+          "hoursTotal": 1,
+          "hoursComplete": 0,
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "name": "Databases",
+      "children": [
+        {
+          "name": "SQL Zoo",
+          "description": "Do it again",
+          "reflection": "",
+          "url": "#",
+          "type": "Exercise",
+          "tags": [],
+          "keywords": [],
+          "hoursTotal": 1,
+          "hoursComplete": 0,
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "name": "Elk Stack",
+      "children": [
+        {
+          "name": "ELK Tutorial",
+          "description": "Elastic Search, Logstash, and Kibana",
+          "reflection": "I don't know yet...",
+          "url": "#",
+          "type": "reading",
+          "tags": [
+            "search"
+          ],
+          "hoursTotal": 1,
+          "hoursComplete": 0,
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "name": "Elk Stack",
+      "children": [
+        {
+          "name": "ELK Tutorial",
+          "description": "Elastic Search, Logstash, and Kibana",
+          "reflection": "I don't know yet...",
+          "url": "#",
+          "type": "reading",
+          "tags": [
+            "search"
+          ],
+          "hoursTotal": 1,
+          "hoursComplete": 0,
+          "priority": 4
         }
       ]
     }

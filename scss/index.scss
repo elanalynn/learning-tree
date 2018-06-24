@@ -2,6 +2,14 @@ $primary: #050527;
 $secondary:#cab604;
 $tertiary: #3b5e5f; 
 
+a {
+  text-decoration: none;
+
+  &:visited {
+    color: inherit;
+  }
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
@@ -15,6 +23,10 @@ form {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   background: $primary;
@@ -27,14 +39,21 @@ nav {
   }
 
   span {
-    cursor: pointer;
+    padding-top: .25em;
   }
 }
 
 main {
   display: flex;
   flex-direction: column;
-  margin: 1rem 4rem;
+  margin: 6rem 4rem;
+  height: 100vh;
+}
+
+#about {
+  margin: 14rem 4rem;
+  height: 60vh;
+  font-size: 1.5rem;
 }
 
 svg {
@@ -44,46 +63,13 @@ svg {
   }
 }
 
-div#about {
-  z-index: -1;
-
-  &.hide {
-    position: absolute;
-    top: -10em
-  }
-
-  &.show {
-    top: 10em;
-  }
-}
-
 .content {
   display: flex;
 }
 
-/* tooltip */
-
 .d3-tip {
-  padding: .5rem;
+  padding: 1rem;
   background: $primary;
   color: #fff;
-  border-radius: 2px;
+  top: 2em;
 }
-
-.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  color: $primary;
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
-}
-
-.d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
-}
-
-/* end tooltip */
