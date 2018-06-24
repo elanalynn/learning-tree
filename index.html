@@ -8,10 +8,9 @@
 <body>
   <nav>
     <h1>Elana's Learning Tree</h1>
-    <ul>
-      <li onClick="toggleVisibility()">About</li>
-    </ul>
+    <span onClick="toggleVisibility()">About</span>
   </nav>
+
   <main>
     <div id="about" class="hide">
       <p>
@@ -29,17 +28,20 @@
         the data is arbitrary, but I'll fill in hours and try to actually use this as a study list and prioritization tool.
       </p>
     </div>
-    <svg width="1200" height="760"></svg>
-    <!-- <form>
-      <label>
-        <input type="radio" name="mode" value="sumByHours" checked> Total Hours</label>
-      <label>
-        <input type="radio" name="mode" value="sumByHoursRemaining" checked> Total Remaining</label>
-      <label>
-        <input type="radio" name="mode" value="sumByCount"> Activity Count</label>
-      <label>
-        <input type="radio" name="mode" value="sumByCount"> Filter Complete</label>
-    </form> -->
+    <div class="content">
+      <svg width="900" height="640"></svg>
+      <form>
+        <h4>Change the View...</h4>
+        <label>
+          <input type="radio" name="mode" value="sumByHours" checked> Total Hours</label>
+        <label>
+          <input type="radio" name="mode" value="sumByHoursRemaining"> Total Remaining</label>
+        <label>
+          <input type="radio" name="mode" value="sumByCount"> Activity Count</label>
+        <label>
+          <input type="radio" name="mode" value="sumByCount"> Filter Complete</label>
+      </form>
+    </div>
   </main>
 
   <script src="https://d3js.org/d3.v4.min.js"></script>

@@ -1,4 +1,4 @@
-# Elana's Learning Tree
+# Learning Tree
 
 This is a tool to help me visualize my learning plan and break the bigger areas up into manageable tasks.
 

@@ -2,43 +2,45 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   padding: 0;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
   background: #050527;
   color: #cab604;
-  border-bottom: 2px solid cadetblue;
-  display: flex;
-  max-width: 1500px;
-  justify-content: space-between;
-  padding: 0 4em;
-  margin-bottom: 1em;
+  border-bottom: 2px solid #3b5e5f;
   z-index: 1;
+
+  > * {
+    margin: 1rem 4rem;
+  }
+
+  span {
+    cursor: pointer;
+  }
 }
 
 main {
-  max-width: 1500px;
-  margin: auto 4em;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 4rem;
 }
 
 svg {
-  font: 10px sans-serif;
-  margin: auto;
-}
-
-ul {
-  list-style: none;
-  padding-top: .5em;
-}
-
-
-a {
-  text-decoration: none;
+  cursor: pointer;
+  text {
+    font-size: .75rem;
+  }
 }
 
 div#about {
-
   z-index: -1;
 
   &.hide {
@@ -49,4 +51,8 @@ div#about {
   &.show {
     top: 10em;
   }
+}
+
+.content {
+  display: flex;
 }
