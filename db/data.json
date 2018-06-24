@@ -1,0 +1,346 @@
+{
+  "name": "learning-map",
+  "children": [
+    {
+      "name": "JavaScript",
+      "color": "yellow",
+      "children": [
+        {
+          "name": "Libraries",
+          "children": [
+            {
+              "name": "React",
+              "color": "#28DEFE",
+              "children": [
+                {
+                  "name": "React Docs",
+                  "description": "",
+                  "url": "https://reactjs.org/docs/hello-world.html",
+                  "type": "reading",
+                  "hoursTotal": 10,
+                  "hoursComplete": 1
+                },
+                {
+                  "name": "Pluralsight React and Flux",
+                  "description": "",
+                  "url": "https://app.pluralsight.com/library/courses/react-flux-angular/table-of-contents",
+                  "type": "video",
+                  "hoursTotal": 5,
+                  "hoursComplete": 5
+                },
+                {
+                  "name": "Pluralsight React and Redux",
+                  "description": "",
+                  "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
+                  "type": "video",
+                  "hoursTotal": 6,
+                  "hoursComplete": 6
+                },
+                {
+                  "name": "Advanced Redux",
+                  "description": "",
+                  "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
+                  "type": "video",
+                  "hoursTotal": 6,
+                  "hoursComplete": 6
+                },
+                {
+                  "name": "Getting Started with Redux (Egghead)",
+                  "description": "",
+                  "url": "https://egghead.io/courses/getting-started-with-redux",
+                  "type": "video",
+                  "hoursTotal": 2,
+                  "hoursComplete": 1
+                },
+                {
+                  "name": "Explain Redux",
+                  "description": "",
+                  "url": "#",
+                  "type": "teaching",
+                  "hoursTotal": 1,
+                  "hoursComplete": 0
+                },
+                {
+                  "name": "Lunch with Friends",
+                  "description": "",
+                  "url": "#",
+                  "type": "coding",
+                  "hoursTotal": 40,
+                  "hoursComplete": 2
+                },
+                {
+                  "name": "TIL",
+                  "description": "",
+                  "url": "#",
+                  "type": "coding",
+                  "hoursTotal": 40,
+                  "hoursComplete": 2
+                },
+                {
+                  "name": "SSR with React",
+                  "children": [
+                    {
+                      "name": "Isomorphic Book",
+                      "description": "",
+                      "url": "#",
+                      "type": "reading",
+                      "hoursTotal": 20,
+                      "hoursComplete": 2
+                    },
+                    {
+                      "name": "SSR with React",
+                      "description": "",
+                      "url": "#",
+                      "type": "video",
+                      "hoursTotal": 10,
+                      "hoursComplete": 2
+                    }
+                  ]
+                },
+                {
+                  "name": "Testing with React",
+                  "children": [
+                    {
+                      "name": "Jest and Enzyme",
+                      "children": [
+                        {
+                          "name": "SSR with React",
+                          "description": "",
+                          "url": "#",
+                          "type": "video",
+                          "hoursTotal": 10,
+                          "hoursComplete": 2
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Cypress",
+                      "children": [
+                        {
+                          "name": "SSR with React",
+                          "description": "",
+                          "url": "#",
+                          "type": "video",
+                          "hoursTotal": 10,
+                          "hoursComplete": 2
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "React Router",
+                  "children": [
+                    {
+                      "name": "React Router Resource",
+                      "description": "",
+                      "url": "#",
+                      "type": "video",
+                      "hoursTotal": 40,
+                      "hoursComplete": 2
+                    }
+                  ]
+                },
+                {
+                  "name": "Context API",
+                  "children": [
+                    {
+                      "name": "Context Docs",
+                      "description": "",
+                      "url": "#",
+                      "type": "video",
+                      "hoursTotal": 4,
+                      "hoursComplete": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "React Native",
+                  "children": [
+                    {
+                      "name": "React Native Curriculum",
+                      "description": "",
+                      "url": "github.com/tylermcginnis/React-Native-Curriculum",
+                      "type": "video",
+                      "hoursTotal": 4,
+                      "hoursComplete": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Iterators",
+          "description": "",
+          "url": "#",
+          "type": "reading",
+          "hoursTotal": 10,
+          "hoursComplete": 1
+        },
+        {
+          "name": "Decorators",
+          "description": "",
+          "url": "#",
+          "type": "reading",
+          "hoursTotal": 10,
+          "hoursComplete": 1
+        }
+      ]
+    },
+    {
+      "name": "Ruby",
+      "color": "#D50000",
+      "children": [
+        {
+          "name": "Libraries",
+          "children": [
+            {
+              "name": "RAILS",
+              "children": [
+                {
+                  "name": "RAILS Guides",
+                  "description": "",
+                  "url": "http://guides.rubyonrails.org/",
+                  "type": "reading",
+                  "hoursTotal": 20,
+                  "hoursComplete": 1
+                },
+                {
+                  "name": "RAILS Tutorial",
+                  "description": "",
+                  "url": "https://www.railstutorial.org/book",
+                  "type": "video",
+                  "hoursTotal": 20,
+                  "hoursComplete": 5
+                },
+                {
+                  "name": "Pluralsight React and Redux",
+                  "description": "",
+                  "url": "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
+                  "type": "video",
+                  "hoursTotal": 6,
+                  "hoursComplete": 6
+                },
+                {
+                  "name": "Book Club App",
+                  "description": "",
+                  "url": "https://github.com/elanalynn/book-club",
+                  "type": "coding",
+                  "hoursTotal": 40,
+                  "hoursComplete": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elixir",
+      "color": "#461A53",
+      "children": [
+        {
+          "name": "Libraries",
+          "children": [
+            {
+              "name": "Phoenix",
+              "children": [
+                {
+                  "name": "RAILS Guides",
+                  "description": "",
+                  "url": "http://guides.rubyonrails.org/",
+                  "type": "reading",
+                  "hoursTotal": 20,
+                  "hoursComplete": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Little Elixir and OTP Book",
+          "description": "",
+          "url": "http://guides.rubyonrails.org/",
+          "type": "reading",
+          "hoursTotal": 20,
+          "hoursComplete": 1
+        }
+      ]
+    },
+    {
+      "name": "Concepts",
+      "children": [
+        {
+          "name": "Functional Programming",
+          "children": [
+            {
+              "name": "Grokking FP",
+              "description": "",
+              "url": "#",
+              "type": "reading",
+              "hoursTotal": 20,
+              "hoursComplete": 8
+            }
+          ]
+        },
+        {
+          "name": "Auth",
+          "color": "#FC3400",
+          "children": [
+            {
+              "name": "Auth0 Docs",
+              "description": "",
+              "url": "#",
+              "type": "reading",
+              "hoursTotal": 8,
+              "hoursComplete": 8
+            }
+          ]
+        },
+        {
+          "name": "GraphQL",
+          "color": "#F40094",
+          "children": [
+            {
+              "name": "GraphQL Docs",
+              "description": "",
+              "url": "#",
+              "type": "reading",
+              "hoursTotal": 8,
+              "hoursComplete": 8
+            },
+            {
+              "name": "Project",
+              "description": "",
+              "crossRef": "some project"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UX & Design",
+      "color": "aqua",
+      "children": [
+        {
+          "name": "Design for Hackers",
+          "description": "",
+          "url": "#",
+          "type": "reading",
+          "hoursTotal": 8,
+          "hoursComplete": 8
+        },
+        {
+          "name": "NNG Certification",
+          "description": "",
+          "url": "#",
+          "type": "certification",
+          "hoursTotal": 8,
+          "hoursComplete": 8
+        }
+      ]
+    }
+  ]
+}

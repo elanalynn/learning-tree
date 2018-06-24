@@ -1,0 +1,19 @@
+{
+  "name": "learning-map",
+  "version": "1.0.0",
+  "description": "an interactive map of shit I need to learn",
+  "main": "server/index.js",
+  "author": "Elana Kopelevich",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "scss": "node-sass scss/index.scss --output css",
+    "scss-watch": "nodemon -e scss -x \"yarn scss\""
+  },
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
+    "sass-lint": "^1.12.1",
+    "static-server": "^2.2.1"
+  }
+}

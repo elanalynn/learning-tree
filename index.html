@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <nav>
+    <h1>Elana's Learning Tree</h1>
+    <ul>
+      <li onClick="toggleVisibility()">About</li>
+    </ul>
+  </nav>
+  <main>
+    <div id="about" class="hide">
+      <p>
+        I'm a software developer and if you're a software developer too, you probably understand what it means when I say I have
+        a long, and ever-growing list of things to learn. These are concepts, language, and frameworks that I need to learn
+        to do my job, to be able to get another job when that day comes, and things that I am simply interested in. For years,
+        I have kept this list in different places. It has existed as various pieces of paper that I eventually lost, in various
+        notetaking applications, a wiki, and even Trello. Regardless of form, it has always been difficult to organize and
+        prioritize.
+      </p>
+      <p>
+        In true form, I have delayed studying one of the higher priority items on my list and decided to make this app to visualize
+        the list, the plan, the map (technically treemap) of my learning process. This is a d3 hierarchy represented as a
+        treemap. It is backed by a json object, and it's probably hard to get a lot of meaning from it at the moment, because
+        the data is arbitrary, but I'll fill in hours and try to actually use this as a study list and prioritization tool.
+      </p>
+    </div>
+    <svg width="1200" height="760"></svg>
+    <!-- <form>
+      <label>
+        <input type="radio" name="mode" value="sumByHours" checked> Total Hours</label>
+      <label>
+        <input type="radio" name="mode" value="sumByHoursRemaining" checked> Total Remaining</label>
+      <label>
+        <input type="radio" name="mode" value="sumByCount"> Activity Count</label>
+      <label>
+        <input type="radio" name="mode" value="sumByCount"> Filter Complete</label>
+    </form> -->
+  </main>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
