@@ -5,8 +5,6 @@ const height = +svg.attr('height')
 const fader = color => d3.interpolateRgb(color, 'gold')(.2)
 const color = d3.scaleOrdinal(d3.schemeCategory20.map(fader))
 
-// const fontColorContrast = require('font-color-contrast')
-
 
 const format = d3.format(',d')
 
@@ -21,7 +19,7 @@ d3.json('db/data.json', (err, data) => {
   
   const root = d3.hierarchy(data)
                  .eachBefore(d => d.data.id = (d.parent ? d.parent.data.id + '.' : '') + d.data.name)
-                 .sum(sumByHoursTotal)
+                 .sum(d => d.hoursTotal)
                  .sort((a, b) => b.height - a.height || b.value - a.value)
 
   treemap(root)
@@ -71,26 +69,3 @@ d3.json('db/data.json', (err, data) => {
   cell.append('title')
       .text(d => d.data.id + '\n' + format(d.value))
 })
-
-function sumByCount(d) {
-  return d.children ? 0 : 1
-}
-
-function sumByHoursTotal(d) {
-  return d.hoursTotal
-}
-
-function sumByHoursRemaining(d) {
-  return d.hoursTotal - d.hoursComplete
-}
-
-function calculateCompleteness(d) {
-  if (d.hoursTotal - d.hoursComplete === 0) return true
-  if (d.hoursTotal - d.hoursComplete < 0) throw 'The math is wrong somewhere'
-  return false
-}
-
-function toggleVisibility() {
-  const about = document.getElementById('about')
-  about.className = about.className === 'hide' ? 'show' : 'hide'
-}
