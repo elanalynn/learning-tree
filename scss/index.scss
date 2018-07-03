@@ -16,23 +16,12 @@ body {
   padding: 0;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  margin-left: 1rem;
-}
-
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   display: flex;
   justify-content: space-between;
   background: $primary;
   color: $secondary;
   border-bottom: 2px solid $tertiary;
-  z-index: 1;
 
   > * {
     margin: 1rem 4rem;
@@ -44,10 +33,27 @@ nav {
 }
 
 main {
+   // height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 6rem 4rem;
-  height: 100vh;
+}
+
+svg {
+  display: block;
+} 
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px){
+  svg {
+    display: none;
+  }
+  .mobile {
+    display: block; 
+  }
 }
 
 #about {
@@ -61,10 +67,6 @@ svg {
   text {
     font-size: .75rem;
   }
-}
-
-.content {
-  display: flex;
 }
 
 .d3-tip {
